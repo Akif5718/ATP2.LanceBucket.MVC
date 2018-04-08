@@ -5,21 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ATP2.LanceBucket.Entities
+namespace ATP.LanceBucket.Model
 {
-    public partial class UserInfo
+    public class Registration
     {
-        [Key]
-        public int ID { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
-        public string UserName { get; set; } 
-        [Required]
+        public string UserName { get; set; }
         public int UserType { get; set; }
-        [Required]
+        [Required, EmailAddress]
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
+        [Required]
+        [Compare("Password")]
+        public string ConfirmPassword { get; set; }
     }
 }
