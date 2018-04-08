@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Web", "ATP2.LanceBucket.Web\ATP2.LanceBucket.Web.csproj", "{9BFA4046-FBA0-4F61-B97E-314FF987511F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3F53C3F2-292C-4630-87F0-C7D143CDD13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Data", "ATP2.LanceBucket.Data\ATP2.LanceBucket.Data.csproj", "{87E4EDB6-A5D5-4CB9-9660-165FAAE02033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP2.LanceBucket.Entities", "ATP2.LanceBucket.Entities\ATP2.LanceBucket.Entities.csproj", "{290CF20E-AF7E-416F-AC48-1F4852D090F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{22D25AC8-0304-4170-BE4B-F2833064B2CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BFA4046-FBA0-4F61-B97E-314FF987511F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFA4046-FBA0-4F61-B97E-314FF987511F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFA4046-FBA0-4F61-B97E-314FF987511F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFA4046-FBA0-4F61-B97E-314FF987511F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E4EDB6-A5D5-4CB9-9660-165FAAE02033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E4EDB6-A5D5-4CB9-9660-165FAAE02033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E4EDB6-A5D5-4CB9-9660-165FAAE02033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E4EDB6-A5D5-4CB9-9660-165FAAE02033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290CF20E-AF7E-416F-AC48-1F4852D090F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290CF20E-AF7E-416F-AC48-1F4852D090F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290CF20E-AF7E-416F-AC48-1F4852D090F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290CF20E-AF7E-416F-AC48-1F4852D090F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BFA4046-FBA0-4F61-B97E-314FF987511F} = {3F53C3F2-292C-4630-87F0-C7D143CDD13B}
+		{87E4EDB6-A5D5-4CB9-9660-165FAAE02033} = {22D25AC8-0304-4170-BE4B-F2833064B2CD}
+		{290CF20E-AF7E-416F-AC48-1F4852D090F1} = {22D25AC8-0304-4170-BE4B-F2833064B2CD}
+	EndGlobalSection
+EndGlobal
